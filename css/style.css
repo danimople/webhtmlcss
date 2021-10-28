@@ -1,0 +1,178 @@
+#container {
+width:80%;
+box-shadow: 0 0 20px rgb(0, 0, 0);
+margin: 0 auto;
+}
+
+body {
+margin: 0;
+}
+
+header {
+width: 100%;
+height: 50px;
+}
+
+header img {
+height: 50px;
+width: 100%;
+
+}
+
+
+#contenido {
+width: 78%;
+float: right;
+padding: 0 1% 1% 1%;
+
+
+}
+
+nav {
+
+width: 20%;
+float: left
+}
+
+footer {
+background-color: darkgoldenrod;
+color: white;
+font-size: 20px;
+text-align: center
+}
+
+.cb {
+    clear: both;
+}
+
+
+
+#home  {
+    text-align: center;
+}
+
+nav ul, nav li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li:hover {
+    background-color: crimson;
+    color: white
+}
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+    color: black;
+    font-size: 200%;
+    border: solid 1px crimson;
+    padding: 4px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.etiqueta {
+font-size: 34px;
+color: blueviolet;
+}
+.titulo{
+text-align: center;
+
+}
+.textoderecha {
+    text-align: right;
+}
+#tablas table {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#tdefault table th{
+    background-color: teal;
+    color: white;
+    font-size: 25px;
+}
+#tdefault table td {
+    background-color: black;
+    color: white;
+}
+
+#tcombi table th {
+    background-color: violet;
+    color: white;
+    font-size: 25px;
+}
+#tcombi table td{
+    background-color: turquoise;
+    color: black;
+}
+#tparimpar table th {
+    font-size: 25px;
+}
+
+#tparimpar tr:nth-child(odd) td {
+    background-color: black;
+    color: white;
+
+}
+#tparimpar tr:nth-child(even) td{
+background-color: blue;
+color: white;
+}
+.txt20 {
+    font-size: 20px;
+}
+#thorario table th {
+    color: #01897C;
+}
+.fol {
+    background-color: #FFD231;
+}
+.sisi {
+    background-color: #C9A0C8;
+}
+.bdd{
+    background-color: #81FF81;
+}
+.prog{
+    background-color: #96DC96;
+}
+.ende{
+    background-color: #8080C0;
+}
+.lm{
+    background-color: #FE8081;
+}
+.ing{
+    background-color: #EFF0C8;
+}
+
+#personalizada1 li {
+    list-style: square;
+}
+#personalizada1 li li {
+    list-style: disc;
+}
+#personalizada1 li li li {
+    list-style: circle;
+}
+#personalizada2 li {
+    list-style: lower-alpha;
+}
+#personalizada2 li li {
+list-style-image: url(../img/corazon16.png);
+}
+#personalizada2 li li li {
+list-style: upper-roman;
+list-style-image: none;
+}
+#multimedia {
+    text-align: center;
+}

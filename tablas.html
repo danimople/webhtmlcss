@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mi primera practica</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img src="img/47-479882_m.jpg" alt="container">
+        </header>
+        <div id="principal">
+            <nav>
+                <ul>
+
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>Párrafos</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>tablas</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multimedia</li>
+                    </a>
+                    <a href="">
+                        <li>HTML 5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <div id="tablas">
+                    <h1 class="titulo">TABLAS</h1>
+                    <p>Las tablas se hacen utilizando la etiqueta <span class="etiqueta">table,tr,th y td</span></p>
+                    <h2>TABLA DEFAULT</h2>
+                    <div id="tdefault">
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th>Archivo</th>
+                                    <th>Editar</th>
+                                    <th>Ver</th>
+                                    <th>Ayuda</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Abrir</td>
+                                    <td>Guardar</td>
+                                    <td>Copiar</td>
+                                    <td>Pegar</td>
+                                </tr>
+                                <tr>
+                                    <td>Ventana</td>
+                                    <td>Full screen</td>
+                                    <td>A cerca de</td>
+                                    <td>FAQ</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2>TABLA DE COMBINACIONES</h2>
+                    <div id="tcombi">
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th>Archivo</th>
+                                    <th>Editar</th>
+                                    <th>Ver</th>
+                                    <th>Ayuda</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="2">Madrid</td>
+                                    <td>Barsa</td>
+                                    <td>Atleti</td>
+                                    <td>Valencia</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">Betis</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2>Tabla con diferente diseño en pares e impares</h2>
+                    <div id="tparimpar">
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th>Archivo</th>
+                                    <th>Editar</th>
+                                    <th>Ver</th>
+                                    <th>Ayuda</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Madrid</td>
+                                    <td>Barsa</td>
+                                    <td>Atleti</td>
+                                    <td>Valencia</td>
+                                </tr>
+                                <tr>
+                                    <td>Sevilla</td>
+                                    <td>Betis</td>
+                                    <td>Celta</td>
+                                    <td>Granada</td>
+                                </tr>
+                                <tr>
+                                    <td>Madrid</td>
+                                    <td>Barsa</td>
+                                    <td>Atleti</td>
+                                    <td>Valencia</td>
+                                </tr>
+                                <tr>
+                                    <td>Sevilla</td>
+                                    <td>Betis</td>
+                                    <td>Celta</td>
+                                    <td>Granada</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <h2>Horario</h2>
+                    <div id="thorario">
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th colspan="6" class="txt20"> <em>S1DAW</em></th>
+                                </tr>
+                                <tr>
+                                    <th>/~\</th>
+                                    <th>Lunes</th>
+                                    <th>Martes</th>
+                                    <th>Miércoles</th>
+                                    <th>Jueves</th>
+                                    <th>Viernes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>8:15 <br> 9:10</th>
+                                    <td class="fol">FOL <br> Prud. Ga, Es <br> (1B-301) <br> FOL</td>
+                                    <td class="ende">ENDE <br> Prud. Ga, Es <br> (1B-301) <br> FOL</td>
+                                    <td rowspan="2" class="bdd">BDD<br>Bern. Be, Cr<br>( 1 B-301 )<br>BDD</td>
+                                    <td class="ing">ING<br>Guti Sa, JoÁn<br>( 1 B-301 )<br>ING</td>
+                                    <td rowspan="2" class="lm">LMSG<br>Puli. Mo, FrJo<br>( 1 B-301 )<br>LMSG</td>
+                                </tr>
+                                <tr>
+                                    <th>9:10 <br> 10:05</th>
+                                    <td rowspan="2" class="sisi">SISI<br>Mart Ru, To<br>( 1 B-301 )<br>SISI</td>
+                                    <td class="ing">ING<br>Guti Sa, JoÁn<br>( 1 B-301 )<br>ING</td>
+                                    <td class="fol">FOL<br>Prud. Ga, Es<br>( 1 B-301 )<br>FOL</td>
+                                </tr>
+                                <tr>
+                                    <th>10:05 <br> 11:00</th>
+                                    <td class="prog">PROG<br>Mart Ca, JoJa<br>( 1 B-301 )<br>PROG</td>
+                                    <td class="ende">ENDE<br>Polo Or, Ed<br>( 1 B-301 )<br>ENDE</td>
+                                    <td class="sisi">SISI<br>Mart Ru, To<br>( 1 B-301 )<br>SISI</td>
+                                    <td class="sisi">SISI<br>Mart Ru, To<br>( 1 B-301 )<br>SISI</td>
+                                </tr>
+                                <tr>
+                                    <th></th>
+                                    <th colspan="5">RECREO</th> 
+                                </tr>
+                                <tr>
+                                    <th>11:30 <br> 12:25</th>
+                                    <td class="ende">ENDE<br>Polo Or, Ed<br>( 1 B-301 )<br>ENDE</td>
+                                    <td class="prog">PROG<br>Mart Ca, JoJa<br>( 1 B-301 )<br>PROG</td>
+                                    <td rowspan="2" class="prog">PROG<br>Mart Ca, JoJa<br>( 1 B-301 )<br>PROG</td>
+                                    <td class="sisi">SISI<br>Mart Ru, To<br>( 1 B-301 )<br>SISI</td>
+                                    <td class="sisi">SISI<br>Mart Ru, To<br>( 1 B-301 )<br>SISI</td>
+                                </tr>
+                                <tr>
+                                    <th>12:25 <br> 13:20</th>
+                                    <td rowspan="2" class="bdd">BDD<br>Bern. Be, Cr<br>( 1 B-301 )<br>BDD</td>
+                                    <td rowspan="2" class="bdd">BDD<br>Bern. Be, Cr<br>( 1 B-301 )<br>BDD</td>
+                                    <td rowspan="2" class="lm">LMSG<br>Puli. Mo, FrJo<br>( 1 B-301 )<br>LMSG</td>
+                                    <td rowspan="2" class="prog">PROG<br>Mart Ca, JoJa<br>( 1 B-301 )<br>PROG</td>
+                                </tr>
+                                <tr>
+                                    <th>13:20 <br> 14:15</th>
+                                    <td class="fol">FOL<br>Prud. Ga, Es<br>( 1 B-301 )<br>FOL</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cb"></div>
+
+        <footer>
+            S1DAW &copy; 2021 TOLEDO
+        </footer>
+
+
+
+    </div>
+</body>
+
+</html>
